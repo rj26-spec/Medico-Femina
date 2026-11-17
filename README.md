@@ -8,7 +8,6 @@ Medico Femina follows a browser-first architecture that processes user health in
 
 ![Medico Femina System Architecture](docs/medico%20femina%20architecture.drawio.png)
 
-
 ### Architecture Flow
 
 User Input
