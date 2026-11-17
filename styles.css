@@ -1,0 +1,455 @@
+/* Medico Femina - Luxury FemTech Design System */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,500;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary-rose: #ff4d6d;
+  --rose-deep: #c9184a;
+  --rose-dark: #590d22;
+  --blush-soft: #fff0f3;
+  --blush-mid: #ffccd5;
+  --lilac-soft: #f3e8ff;
+  --lilac-deep: #9333ea;
+  --gold-warm: #fef08a;
+  --gold-deep: #b45309;
+  --teal-soft: #ccfbf1;
+  --teal-deep: #0f766e;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: radial-gradient(circle at 10% 20%, #fff1f2 0%, #fdf4ff 40%, #f8fafc 80%);
+  color: #1e293b;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.brand-font {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.heading-font {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Glassmorphism Luxe Cards */
+.luxe-card {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 204, 213, 0.45);
+  box-shadow: 0 12px 35px -8px rgba(244, 63, 94, 0.07), 0 4px 12px -2px rgba(0, 0, 0, 0.02);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.luxe-card:hover {
+  border-color: rgba(255, 117, 143, 0.6);
+  box-shadow: 0 20px 40px -10px rgba(244, 63, 94, 0.12), 0 6px 16px -3px rgba(0, 0, 0, 0.03);
+}
+
+/* Glowing Elements */
+.glow-rose {
+  box-shadow: 0 0 25px -4px rgba(255, 77, 109, 0.35);
+}
+
+.glow-purple {
+  box-shadow: 0 0 25px -4px rgba(147, 51, 234, 0.35);
+}
+
+.glow-gold {
+  box-shadow: 0 0 25px -4px rgba(234, 179, 8, 0.35);
+}
+
+/* Cycle Ring Dial Animation */
+.cycle-ring-pointer {
+  transition: transform 1.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Soft Pulsing Live Status */
+@keyframes warmGaze {
+  0%, 100% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 8px rgba(244, 63, 94, 0.4));
+  }
+  50% {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 18px rgba(244, 63, 94, 0.7));
+  }
+}
+.pulse-glow {
+  animation: warmGaze 3s infinite ease-in-out;
+}
+
+/* Interactive Pill Toggles */
+.pill-option {
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.pill-option:active {
+  transform: scale(0.95);
+}
+.pill-option.active {
+  background: linear-gradient(135deg, #ff4d6d 0%, #c9184a 100%);
+  color: white !important;
+  border-color: transparent !important;
+  box-shadow: 0 6px 18px -4px rgba(225, 29, 72, 0.35);
+  transform: translateY(-1px);
+}
+
+/* Water Intake Droplets */
+.water-drop {
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+.water-drop:hover {
+  transform: translateY(-3px) scale(1.1);
+}
+.water-drop.filled {
+  background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%);
+  color: white;
+  box-shadow: 0 4px 12px -2px rgba(14, 165, 233, 0.4);
+}
+
+/* Walking Breath Pulse */
+@keyframes breathWave {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(13, 148, 136, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 16px rgba(13, 148, 136, 0);
+  }
+}
+.walking-pulse {
+  animation: breathWave 2s infinite ease-in-out;
+}
+
+/* Calendar Day Cells */
+.calendar-day {
+  transition: all 0.2s ease;
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+.calendar-day:hover:not(.empty) {
+  transform: scale(1.08);
+  z-index: 5;
+}
+.calendar-day.selected {
+  outline: 2px solid #ff4d6d;
+  outline-offset: 2px;
+}
+
+/* Weather & Little Timer Widgets */
+.weather-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(254, 243, 199, 0.35) 100%);
+  border: 1px solid rgba(251, 191, 36, 0.3);
+}
+
+.mini-timer-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(243, 232, 255, 0.45) 100%);
+  border: 1px solid rgba(192, 132, 252, 0.3);
+}
+
+/* AI Chat & Doctor Directory Styles */
+.chat-bubble-ai {
+  background: linear-gradient(135deg, #fdf4ff 0%, #fff1f2 100%);
+  border: 1px solid rgba(244, 63, 94, 0.15);
+  border-top-left-radius: 4px;
+}
+
+.chat-bubble-user {
+  background: linear-gradient(135deg, #ff4d6d 0%, #e11d48 100%);
+  color: white;
+  border-top-right-radius: 4px;
+  box-shadow: 0 4px 15px -3px rgba(225, 29, 72, 0.3);
+}
+
+.doctor-card {
+  transition: all 0.25s ease;
+}
+.doctor-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(244, 63, 94, 0.4);
+  box-shadow: 0 16px 30px -10px rgba(244, 63, 94, 0.1);
+}
+
+/* Real-Time Doctor Locator & Specialist Directory Active Filters */
+.city-preset-pill.active {
+  background: linear-gradient(135deg, #f43f5e 0%, #e11d48 100%) !important;
+  color: #ffffff !important;
+  border-color: #e11d48 !important;
+  box-shadow: 0 4px 14px -2px rgba(244, 63, 94, 0.4) !important;
+}
+
+.doc-specialty-btn.active {
+  background: linear-gradient(135deg, #f43f5e 0%, #e11d48 100%) !important;
+  color: #ffffff !important;
+  border-color: #e11d48 !important;
+  box-shadow: 0 4px 14px -2px rgba(244, 63, 94, 0.35) !important;
+}
+
+.doc-mode-btn.active {
+  background-color: #0f172a !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 8px -1px rgba(15, 23, 42, 0.3) !important;
+}
+
+/* 3-Month Cycle Calendar Badges & Calculator */
+.cycle-badge-period {
+  background-color: #9d174d !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+}
+
+.cycle-badge-ovulation {
+  background-color: #9d174d !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  position: relative !important;
+}
+
+.cycle-badge-fertile {
+  background-color: #fce7f3 !important;
+  color: #be185d !important;
+  font-weight: 700 !important;
+}
+
+.cycle-badge-other {
+  background-color: #f1f5f9 !important;
+  color: #334155 !important;
+  font-weight: 500 !important;
+}
+
+/* Auth Modal Backdrop */
+.auth-backdrop {
+  background: radial-gradient(circle at center, rgba(30, 27, 75, 0.65) 0%, rgba(15, 23, 42, 0.85) 100%);
+  backdrop-filter: blur(8px);
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(255, 241, 242, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: #fecdd3;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #fda4af;
+}
+
+/* Mobile Bottom Navigation & Safe Area Inset */
+.pb-safe {
+  padding-bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px));
+}
+
+.mobile-nav-btn {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  flex: 1;
+}
+
+.mobile-nav-btn.active {
+  color: #ff4d6d !important;
+  transform: translateY(-2px);
+}
+
+.mobile-nav-btn.active i {
+  filter: drop-shadow(0 2px 6px rgba(255, 77, 109, 0.4));
+}
+
+.mobile-nav-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 14px;
+  height: 3px;
+  background: #ff4d6d;
+  border-radius: 9999px;
+}
+
+/* Touch Friendly Targets on Mobile */
+@media (max-width: 768px) {
+  body {
+    padding-bottom: 74px; /* Space for bottom nav */
+  }
+  
+  .luxe-card {
+    border-radius: 24px;
+    padding: 1.25rem !important;
+  }
+  
+  button, input, select {
+    min-height: 42px;
+  }
+}
+
+/* Device Mode Indicator Badge */
+.device-badge-phone {
+  background: linear-gradient(135deg, #fdf2f8 0%, #ffe4e6 100%);
+  color: #be123c;
+  border: 1px solid #fecdd3;
+}
+
+.device-badge-laptop {
+  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+}
+
+.mobile-view-container {
+  max-width: 440px;
+  margin: 20px auto;
+  border: 14px solid #1e1b4b;
+  border-radius: 50px;
+  overflow: hidden;
+  box-shadow: 0 25px 65px -15px rgba(30, 27, 75, 0.35);
+  background: #fff;
+  min-height: 890px;
+}
+
+/* Print Layout */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #print-area, #print-area * {
+    visibility: visible;
+  }
+  #print-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    background: white;
+    color: black;
+  }
+  .no-print {
+    display: none !important;
+  }
+}
+
+/* ==========================================================================
+   Precise Weather Prediction, Daily Data Hub & Cycle Summary Extensions
+   ========================================================================== */
+
+/* Weather Hourly Scroll Timeline */
+.weather-hourly-timeline {
+  display: flex;
+  overflow-x: auto;
+  gap: 0.75rem;
+  padding-bottom: 0.5rem;
+  scrollbar-width: thin;
+  scrollbar-color: #fbcfe8 transparent;
+}
+.weather-hourly-timeline::-webkit-scrollbar {
+  height: 4px;
+}
+.weather-hourly-timeline::-webkit-scrollbar-thumb {
+  background: #fbcfe8;
+  border-radius: 9999px;
+}
+
+/* Weather Day Forecast Card */
+.weather-day-card {
+  transition: all 0.2s ease;
+}
+.weather-day-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px -5px rgba(251, 191, 36, 0.2);
+}
+
+/* UV Badges */
+.uv-low { background-color: #ecfdf5; color: #047857; border: 1px solid #a7f3d0; }
+.uv-mod { background-color: #fefce8; color: #a16207; border: 1px solid #fef08a; }
+.uv-high { background-color: #fff7ed; color: #c2410c; border: 1px solid #fed7aa; }
+.uv-extreme { background-color: #fdf2f8; color: #be123c; border: 1px solid #fbcfe8; }
+
+/* Calendar Indicators */
+.calendar-day.period-day {
+  background: linear-gradient(135deg, rgba(255, 241, 242, 0.9) 0%, rgba(255, 228, 230, 0.8) 100%);
+  border-color: #fda4af !important;
+}
+.calendar-day.ovulation-day {
+  background: linear-gradient(135deg, rgba(250, 245, 255, 0.95) 0%, rgba(243, 232, 255, 0.85) 100%);
+  border-color: #d8b4fe !important;
+}
+.calendar-day.logged-day::after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 6px;
+  height: 6px;
+  background-color: #0d9488;
+  border-radius: 9999px;
+  box-shadow: 0 0 6px rgba(13, 148, 136, 0.6);
+}
+
+/* Cycle Summary Metric Cards */
+.cycle-summary-metric {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(244, 63, 94, 0.15);
+  border-radius: 1.25rem;
+  padding: 1rem;
+  transition: all 0.2s ease;
+}
+.cycle-summary-metric:hover {
+  border-color: rgba(244, 63, 94, 0.35);
+  transform: translateY(-2px);
+}
+
+/* Toast Notifications */
+#toast-notification {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  border-radius: 16px;
+  background: rgba(15, 23, 42, 0.92);
+  backdrop-filter: blur(12px);
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  box-shadow: 0 16px 36px -6px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: translateY(100px);
+  opacity: 0;
+  pointer-events: none;
+}
+#toast-notification.show {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
