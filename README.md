@@ -4,6 +4,10 @@ Medico Femina empowers women to take control of their endocrine health through d
 ## 🏗️ System Architecture
 
 Medico Femina follows a browser-first architecture that processes user health inputs through tracking, analysis, AI support, and safety modules.
+### Architecture Flow
+
+![Medico Femina System Architecture](docs/medico-femina-architecture.png)
+
 
 ### Architecture Flow
 
