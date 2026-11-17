@@ -8,15 +8,25 @@ Medico Femina follows a browser-first architecture that processes user health in
 ### Architecture Flow
 
 User Input
+
 ↓
+
 HTML/CSS/JavaScript Interface
+
 ↓
+
 Application Logic
+
 ↓
+
 AI & Safety Modules
+
 ↓
+
 External Services
+
 ↓
+
 Guidance, Alerts & Doctor Support
 
 
