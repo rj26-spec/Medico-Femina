@@ -1,6 +1,26 @@
 # Medico-Femina
 Medico Femina empowers women to take control of their endocrine health through daily micro-habits, actionable biofeedback, and compassionate clinical guidance—transforming the overwhelming experience of PCOD/PCOS into a structured, sustainable journey toward lifelong hormonal remission.
 
+Key Features
+
+🩺 Menstrual cycle and period tracking
+
+🌡️ Basal Body Temperature (BBT) monitoring
+
+🧠 AI-powered health insights
+
+🥗 Nutrition and meal analysis
+
+📋 PCOS/PCOD symptom assessment
+
+🤖 AI health assistant
+
+👩‍⚕️ Doctor consultation support
+
+📊 Health data visualization and tracking
+
+🔐 Secure user data management
+
 ## 🏗️ System Architecture
 
 Medico Femina follows a browser-first architecture that processes user health inputs through tracking, analysis, AI support, and safety modules.
