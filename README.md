@@ -35,3 +35,17 @@ Guidance, Alerts & Doctor Support
 
 
 video link: https://drive.google.com/file/d/17-RnepG1WbmSO5_R_sqV8NA0G9hduPQ_/view?usp=drivesdk
+
+
+Future Scope
+
+• Personalized health insights
+• Improved AI-based pattern analysis
+• Wearable device integration
+• Period prediction improvements
+• Advanced nutrition recommendations
+• Multilingual support
+• Voice-based AI assistant
+• Doctor appointment integration
+• Health report generation
+• Secure cloud synchronization
