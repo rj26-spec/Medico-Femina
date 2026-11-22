@@ -89,6 +89,18 @@ Main Components
 
   Handles communication between the frontend and AI modules
 
+3.AI Analysis Layer
+
+   Cycle and period pattern analysis
+
+   BBT pattern analysis
+
+   Symptom pattern analysis
+
+   Nutrition insights
+
+   AI-powered health assistance
+
 video link: https://drive.google.com/file/d/17-RnepG1WbmSO5_R_sqV8NA0G9hduPQ_/view?usp=drivesdk
 
 
