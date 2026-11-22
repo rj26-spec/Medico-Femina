@@ -78,7 +78,7 @@ Main Components
   AI health assistant
 
   Doctor consultation support
-  
+
 2. Backend & Data Management
 
   Processes user inputs
