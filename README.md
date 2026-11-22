@@ -73,6 +73,12 @@ Main Components
 
   Nutrition and meal information
 
+  PCOS/PCOD quiz
+
+  AI health assistant
+
+  Doctor consultation support
+
 
 video link: https://drive.google.com/file/d/17-RnepG1WbmSO5_R_sqV8NA0G9hduPQ_/view?usp=drivesdk
 
