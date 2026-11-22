@@ -78,7 +78,16 @@ Main Components
   AI health assistant
 
   Doctor consultation support
+  
+2. Backend & Data Management
 
+  Processes user inputs
+
+  Manages authentication and sessions
+
+  Stores health-tracking information
+
+  Handles communication between the frontend and AI modules
 
 video link: https://drive.google.com/file/d/17-RnepG1WbmSO5_R_sqV8NA0G9hduPQ_/view?usp=drivesdk
 
