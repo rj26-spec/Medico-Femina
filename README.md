@@ -69,6 +69,10 @@ Main Components
 
   Nutrition and meal information
 
+  Symptom and mood tracking
+
+  Nutrition and meal information
+
 
 video link: https://drive.google.com/file/d/17-RnepG1WbmSO5_R_sqV8NA0G9hduPQ_/view?usp=drivesdk
 
