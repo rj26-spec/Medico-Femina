@@ -53,6 +53,15 @@ External Services
 
 Guidance, Alerts & Doctor Support
 
+Main Components
+
+1.User Interface
+
+  User registration and login
+  Health dashboard
+  Menstrual cycle tracking
+  BBT tracking
+
 
 video link: https://drive.google.com/file/d/17-RnepG1WbmSO5_R_sqV8NA0G9hduPQ_/view?usp=drivesdk
 
