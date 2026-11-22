@@ -101,6 +101,22 @@ Main Components
 
    AI-powered health assistance
 
+4.Personalized Insight Layer
+
+   Converts analyzed data into understandable insights
+ 
+   Provides health-monitoring suggestions
+
+   Helps users identify patterns that may require professional attention
+
+5.Healthcare Support
+
+   AI-assisted health guidance
+
+   Health information and educational resources
+
+   Doctor consultation/contact support
+
 video link: https://drive.google.com/file/d/17-RnepG1WbmSO5_R_sqV8NA0G9hduPQ_/view?usp=drivesdk
 
 
