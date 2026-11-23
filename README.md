@@ -117,7 +117,7 @@ Guidance, Alerts & Doctor Support
 
    Doctor consultation/contact support
 
-video link: https://drive.google.com/file/d/17-RnepG1WbmSO5_R_sqV8NA0G9hduPQ_/view?usp=drivesdk
+# video link: https://drive.google.com/file/d/17-RnepG1WbmSO5_R_sqV8NA0G9hduPQ_/view?usp=drivesdk
 
 
 Future Scope
